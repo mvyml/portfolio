@@ -1,0 +1,92 @@
+p {
+    font-size: 20px;
+}
+
+#contact_info {
+    text-align: left;
+    width: fit-content;
+    margin: 0 auto;
+
+    margin-top: 30px;
+}
+
+#contact_info li {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#contact_form_div {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Center inline text elements */
+
+    margin-top: 50px;
+}
+
+#contact_form_div h2 {
+    margin-bottom: 20px;
+}
+
+#contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the form */
+
+    border: 3px rgb(156, 156, 156) solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Aligns text and input */
+    justify-content: space-between; /* Keeps space between label and input */
+
+    margin-bottom: 10px;
+
+    min-width: 600px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.form-group label {
+    width: 80px; /* Sets a fixed width for labels */
+    text-align: right; /* Aligns label text to the right */
+    margin-right: 10px; /* Adds spacing */
+    font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1; /* Allows inputs to take remaining space */
+    padding: 8px;
+
+    border: 1px solid #575757;
+    border-radius: 5px;
+
+    background-color: #222;
+    color: white;
+
+    text-align: left;
+    font-size: 18px;
+}
+
+#contact_form button {
+    margin-top: 10px;
+    
+    padding: 5px 0 5px 0;
+
+    border: 2px solid #575757;
+    border-radius: 5px;
+    background-color: #222;
+
+    font-size: 22px;
+    width: 100%;
+}
+
+#contact_form button:hover {
+    cursor: pointer;
+    background-color: #1a1a1a;
+}

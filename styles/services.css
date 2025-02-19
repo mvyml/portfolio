@@ -1,0 +1,22 @@
+p {
+    font-size: 20px;
+}
+
+#all_services {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#all_services h1 {
+    margin-bottom: 10px;
+}
+
+#all_services ul li {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.service {
+    margin-bottom: 100px;
+}

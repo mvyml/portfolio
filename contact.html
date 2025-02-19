@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <title>Kontakt</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Kontaktujte mě</h1>
+            <p id="subtitle">Máte zájem o mé služby? Neváhejte mě kontaktovat</p>
+        </header>
+
+        <main>
+            <p><strong>Jméno:</strong> Matyáš Vymlátil</p>
+
+            <ul id="contact_info">
+                <li><strong>Telefonní číslo:</strong> +420 735 278 276</li>
+                <li><strong>E-mail:</strong> <a href="mailto:m.vymlatil@outlook.com">m.vymlatil@outlook.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/mvyml" target="_blank">https://github.com/mvyml</a></li>
+            </ul>
+
+            <div id="contact_form_div">
+                <h2>Napište mi zprávu</h2>
+            
+                <form id="contact_form" action="mailto:m.vymlatil@outlook.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Jméno:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Zpráva:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+            
+                    <button type="submit">Odeslat</button>
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            <hr id="footer_sep">
+
+            <ul id="footer_nav">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="services.html">Služby</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
