@@ -23,7 +23,7 @@ main {
     flex: 1;
 }
 
-p {
+p, li {
     font-size: 18px;
 }
 
@@ -86,4 +86,44 @@ header {
 
 #footer_nav a:hover {
     background-color: rgb(66, 66, 66);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust header title and subtitle sizes */
+    #title {
+      font-size: 30px;
+    }
+    #subtitle {
+      font-size: 16px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    
+    /* Adjust paragraph text for better readability on small screens */
+    p {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+    
+    /* Make horizontal rules more responsive */
+    hr {
+      width: 80%;
+      margin: 40px auto;
+    }
+    
+    /* Footer navigation: Stack items vertically */
+    #footer_nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    #footer_nav li {
+      margin: 0;
+      margin-bottom: 30px;
+    }
 }
