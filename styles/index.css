@@ -1,21 +1,11 @@
+li {
+    text-align: left;
+}
+
 .offering, .why_me {
     text-align: left;
     width: fit-content;
     margin: 0 auto;
-}
-
-#offering_list li {
-    text-align: left;
-    padding-left: 50px;
-}
-
-#why_me_list li {
-    text-align: left;
-    padding-left: 50px;
-}
-
-#more_info, #contact_href {
-    margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -23,11 +13,5 @@
         width: 90%;
         margin: 0 auto;
         text-align: left;
-    }
-      
-      /* Adjust list items inside those sections */
-    #offering_list li,
-    #why_me_list li {
-        padding-left: 20px;  /* Reduced padding for mobile */
     }
 }
